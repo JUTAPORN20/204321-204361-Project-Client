@@ -1,6 +1,6 @@
 .marpage{
-    
     margin: 60px;
+    
 }
 .text{
     font-family: Roboto;
@@ -13,32 +13,52 @@
     text-align: center;
     color:#242424;
 }
-
-caption{
-    display: table-caption;
-    width: 306px;
-    height: 30px;
-    float: left;
-    background: #D7D2CE;
-    border: 1px solid #7C7977;
-    border-radius: 15px 15px 0px 0px;
-}
+// caption{
+//     display: table-caption;
+//     width: 306px;
+//     height: 30px;
+//     float: left;
+//     background: #D7D2CE;
+//     border: 1px solid #7C7977;
+//     border-radius: 15px 15px 0px 0px;
+// }
 .col1{
     width: 182.5px;
     height: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14.592px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #242424;
     background: #ABB7C8;
-    border: 1px solid #7C7977;
-
+}
+.col2{
+    width: 362.57px;
+    height: 30px;
+    color: #242424;
+    background: #F4F2F0; 
+}
+.col3{
+    width: 92.47px;
+    height: 29.86px;
+    color: #242424;
+    background: #F4F2F0;  
+}
+.col3{
+    width: 92px;
+    height: 30px;
+    color: #242424;
+    background: #F4F2F0; 
+}
+.col4{
+    width: 92px;
+    height: 30px;
+    color: #242424;
+    background: #F4F2F0;
+}
+table{
+    border-collapse:separate;
+    border-radius: 15px ;
+    overflow: hidden;
+    margin: auto;
 }
 th,td{
-    border: 1px solid #7C7977;
+    text-align: center !important;
 }
+

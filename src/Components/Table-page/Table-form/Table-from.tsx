@@ -6,55 +6,55 @@ const TableForm = () => {
             <div>
                 <label className="text">ปี 1</label>
                 <table>
-                    <caption >ปี 1 เทอม 1</caption>
+                    {/* <caption >ปี 1 เทอม 1</caption> */}
                     {/*head row*/}
                     <tr>
-                        <th>รหัสวิชา</th>
-                        <th>ชื่อวิชา</th>
-                        <th>หน่วยกิต</th>
-                        <th>เกรด</th>
+                        <th className="col1">รหัสวิชา</th>
+                        <th className="col2">ชื่อวิชา</th>
+                        <th className="col3">หน่วยกิต</th>
+                        <th className="col4">เกรด</th>
                     </tr>
                     {/*row 1*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                     {/*row 2*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                     {/*row 3*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                     {/*row 4*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                     {/*row 5*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                     {/*row 6*/}
                     <tr>
-                        <td>202113</td>
-                        <td>Physics I</td>
-                        <td>3</td>
-                        <td>D</td>
+                        <td className="col1">202113</td>
+                        <td className="col2">Physics I</td>
+                        <td className="col3">3</td>
+                        <td className="col4">D</td>
                     </tr>
                 </table>
             </div>
